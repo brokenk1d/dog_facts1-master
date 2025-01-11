@@ -8,7 +8,8 @@ from telebot.callback_data import CallbackData
 from bot_func_abc import AtomicBotFunctionABC
 
 class DogFactBotFunction(AtomicBotFunctionABC):
-    """Реализация функции бота для получения интересных фактов о собаках."""
+    """Реализация функции бота для получения интересных фактов о собаках.
+    """
 
     commands: List[str] = ["dogfact", "df"]
     authors: List[str] = ["IHVH"]
